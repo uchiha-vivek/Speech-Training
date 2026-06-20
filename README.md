@@ -19,3 +19,20 @@ A standard Fourier Transform calculates the frequency makeup of an entire audio 
 * **MFCCs (Mel-Frequency Cepstral Coefficients):** MFCCs take a Mel-scale spectrogram and run a compression algorithm (Discrete Cosine Transform) over it. This extracts the overarching envelope structure of the sound (the "timbre" or tone quality) while dropping irrelevant background static. It serves as a compact fingerprint ideal for machine learning pipelines.
 
 ---
+
+
+### How the next execution steps looks like
+
+```bash
+
+1. MFCC Matrix → CNN [DONE]
+
+2. MFCC Matrix → CNN [PENDING]
+
+3. Mel Spectrogram → CNN
+
+4. Speech → Text
+
+5. Whisper Implementation
+
+```
